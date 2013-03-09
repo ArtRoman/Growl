@@ -33,8 +33,8 @@
 		BC006C6A15AB0C7200643FA8 /* Network-Wifi-Off.tif in Resources */ = {isa = PBXBuildFile; fileRef = BC006C4F15AB052300643FA8 /* Network-Wifi-Off.tif */; };
 		BC006C6E15AB0CC500643FA8 /* USB-Off.tif in Resources */ = {isa = PBXBuildFile; fileRef = BC006C6C15AB0CC500643FA8 /* USB-Off.tif */; };
 		BC006C6F15AB0CC500643FA8 /* USB-On.tif in Resources */ = {isa = PBXBuildFile; fileRef = BC006C6D15AB0CC500643FA8 /* USB-On.tif */; };
-		BC006C7315AB0DB400643FA8 /* Bluetooth-Off.tif in Resources */ = {isa = PBXBuildFile; fileRef = BC006C7115AB0DB400643FA8 /* Bluetooth-Off.tif */; };
-		BC006C7415AB0DB400643FA8 /* Bluetooth-On.tif in Resources */ = {isa = PBXBuildFile; fileRef = BC006C7215AB0DB400643FA8 /* Bluetooth-On.tif */; };
+		BC006C7315AB0DB400643FA8 /* Bluetooth-Off.png in Resources */ = {isa = PBXBuildFile; fileRef = BC006C7115AB0DB400643FA8 /* Bluetooth-Off.png */; };
+		BC006C7415AB0DB400643FA8 /* Bluetooth-On.png in Resources */ = {isa = PBXBuildFile; fileRef = BC006C7215AB0DB400643FA8 /* Bluetooth-On.png */; };
 		BC006C7815AB0E0100643FA8 /* Firewire-Off.tif in Resources */ = {isa = PBXBuildFile; fileRef = BC006C7615AB0E0100643FA8 /* Firewire-Off.tif */; };
 		BC006C7915AB0E0100643FA8 /* Firewire-On.tif in Resources */ = {isa = PBXBuildFile; fileRef = BC006C7715AB0E0100643FA8 /* Firewire-On.tif */; };
 		BC006C8A15AB0EF500643FA8 /* Power-0.tif in Resources */ = {isa = PBXBuildFile; fileRef = BC006C7B15AB0EF400643FA8 /* Power-0.tif */; };
@@ -388,55 +388,55 @@
 		83CFD42E15E491DE0050746D /* ar */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
 		83CFD43E15E4920C0050746D /* cs */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = cs; path = cs.lproj/Localizable.strings; sourceTree = "<group>"; };
 		93AD0193165BBADF005B790D /* GrowlToolChainSupport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GrowlToolChainSupport.h; path = ../../../GrowlToolChainSupport.h; sourceTree = "<group>"; };
-		BC006C2515AB004900643FA8 /* HWGPrefsBluetooth.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = HWGPrefsBluetooth.tif; path = Resources/MonitorIcons/HWGPrefsBluetooth.tif; sourceTree = SOURCE_ROOT; };
-		BC006C2615AB004900643FA8 /* HWGPrefsCapster.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = HWGPrefsCapster.tif; path = Resources/MonitorIcons/HWGPrefsCapster.tif; sourceTree = SOURCE_ROOT; };
-		BC006C2715AB004900643FA8 /* HWGPrefsDefault.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = HWGPrefsDefault.tif; path = Resources/MonitorIcons/HWGPrefsDefault.tif; sourceTree = SOURCE_ROOT; };
-		BC006C2915AB004900643FA8 /* HWGPrefsDrivesVolumes.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = HWGPrefsDrivesVolumes.tif; path = Resources/MonitorIcons/HWGPrefsDrivesVolumes.tif; sourceTree = SOURCE_ROOT; };
-		BC006C2A15AB004900643FA8 /* HWGPrefsFireWire.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = HWGPrefsFireWire.tif; path = Resources/MonitorIcons/HWGPrefsFireWire.tif; sourceTree = SOURCE_ROOT; };
-		BC006C2B15AB004900643FA8 /* HWGPrefsNetwork.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = HWGPrefsNetwork.tif; path = Resources/MonitorIcons/HWGPrefsNetwork.tif; sourceTree = SOURCE_ROOT; };
-		BC006C2C15AB004900643FA8 /* HWGPrefsPhone.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = HWGPrefsPhone.tif; path = Resources/MonitorIcons/HWGPrefsPhone.tif; sourceTree = SOURCE_ROOT; };
-		BC006C2D15AB004900643FA8 /* HWGPrefsPower.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = HWGPrefsPower.tif; path = Resources/MonitorIcons/HWGPrefsPower.tif; sourceTree = SOURCE_ROOT; };
-		BC006C2F15AB004900643FA8 /* HWGPrefsTimeMachine.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = HWGPrefsTimeMachine.tif; path = Resources/MonitorIcons/HWGPrefsTimeMachine.tif; sourceTree = SOURCE_ROOT; };
-		BC006C3015AB004900643FA8 /* HWGPrefsUSB.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = HWGPrefsUSB.tif; path = Resources/MonitorIcons/HWGPrefsUSB.tif; sourceTree = SOURCE_ROOT; };
-		BC006C3E15AB012400643FA8 /* DisksVolumes-Eject.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = "DisksVolumes-Eject.tif"; path = "Resources/NotificationIcons/Disks & Volumes/DisksVolumes-Eject.tif"; sourceTree = SOURCE_ROOT; };
-		BC006C4615AB052200643FA8 /* Network-Ethernet-Off.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = "Network-Ethernet-Off.tif"; path = "Resources/NotificationIcons/Network/Network-Ethernet-Off.tif"; sourceTree = SOURCE_ROOT; };
-		BC006C4715AB052200643FA8 /* Network-Ethernet-On.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = "Network-Ethernet-On.tif"; path = "Resources/NotificationIcons/Network/Network-Ethernet-On.tif"; sourceTree = SOURCE_ROOT; };
-		BC006C4815AB052200643FA8 /* Network-Generic-Off.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = "Network-Generic-Off.tif"; path = "Resources/NotificationIcons/Network/Network-Generic-Off.tif"; sourceTree = SOURCE_ROOT; };
-		BC006C4915AB052200643FA8 /* Network-Generic-On.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = "Network-Generic-On.tif"; path = "Resources/NotificationIcons/Network/Network-Generic-On.tif"; sourceTree = SOURCE_ROOT; };
-		BC006C4E15AB052300643FA8 /* Network-Wifi-4.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = "Network-Wifi-4.tif"; path = "Resources/NotificationIcons/Network/Network-Wifi-4.tif"; sourceTree = SOURCE_ROOT; };
-		BC006C4F15AB052300643FA8 /* Network-Wifi-Off.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = "Network-Wifi-Off.tif"; path = "Resources/NotificationIcons/Network/Network-Wifi-Off.tif"; sourceTree = SOURCE_ROOT; };
-		BC006C6C15AB0CC500643FA8 /* USB-Off.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = "USB-Off.tif"; path = "Resources/NotificationIcons/USB/USB-Off.tif"; sourceTree = SOURCE_ROOT; };
-		BC006C6D15AB0CC500643FA8 /* USB-On.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = "USB-On.tif"; path = "Resources/NotificationIcons/USB/USB-On.tif"; sourceTree = SOURCE_ROOT; };
-		BC006C7115AB0DB400643FA8 /* Bluetooth-Off.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = "Bluetooth-Off.tif"; path = "Resources/NotificationIcons/Bluetooth/Bluetooth-Off.tif"; sourceTree = SOURCE_ROOT; };
-		BC006C7215AB0DB400643FA8 /* Bluetooth-On.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = "Bluetooth-On.tif"; path = "Resources/NotificationIcons/Bluetooth/Bluetooth-On.tif"; sourceTree = SOURCE_ROOT; };
-		BC006C7615AB0E0100643FA8 /* Firewire-Off.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = "Firewire-Off.tif"; path = "Resources/NotificationIcons/FireWire/Firewire-Off.tif"; sourceTree = SOURCE_ROOT; };
-		BC006C7715AB0E0100643FA8 /* Firewire-On.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = "Firewire-On.tif"; path = "Resources/NotificationIcons/FireWire/Firewire-On.tif"; sourceTree = SOURCE_ROOT; };
-		BC006C7B15AB0EF400643FA8 /* Power-0.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = "Power-0.tif"; path = "Resources/NotificationIcons/Power/Power-0.tif"; sourceTree = SOURCE_ROOT; };
-		BC006C7C15AB0EF400643FA8 /* Power-10.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = "Power-10.tif"; path = "Resources/NotificationIcons/Power/Power-10.tif"; sourceTree = SOURCE_ROOT; };
-		BC006C7D15AB0EF400643FA8 /* Power-20.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = "Power-20.tif"; path = "Resources/NotificationIcons/Power/Power-20.tif"; sourceTree = SOURCE_ROOT; };
-		BC006C7E15AB0EF400643FA8 /* Power-30.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = "Power-30.tif"; path = "Resources/NotificationIcons/Power/Power-30.tif"; sourceTree = SOURCE_ROOT; };
-		BC006C7F15AB0EF400643FA8 /* Power-40.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = "Power-40.tif"; path = "Resources/NotificationIcons/Power/Power-40.tif"; sourceTree = SOURCE_ROOT; };
-		BC006C8015AB0EF400643FA8 /* Power-50.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = "Power-50.tif"; path = "Resources/NotificationIcons/Power/Power-50.tif"; sourceTree = SOURCE_ROOT; };
-		BC006C8115AB0EF400643FA8 /* Power-60.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = "Power-60.tif"; path = "Resources/NotificationIcons/Power/Power-60.tif"; sourceTree = SOURCE_ROOT; };
-		BC006C8215AB0EF400643FA8 /* Power-70.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = "Power-70.tif"; path = "Resources/NotificationIcons/Power/Power-70.tif"; sourceTree = SOURCE_ROOT; };
-		BC006C8315AB0EF400643FA8 /* Power-80.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = "Power-80.tif"; path = "Resources/NotificationIcons/Power/Power-80.tif"; sourceTree = SOURCE_ROOT; };
-		BC006C8415AB0EF400643FA8 /* Power-90.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = "Power-90.tif"; path = "Resources/NotificationIcons/Power/Power-90.tif"; sourceTree = SOURCE_ROOT; };
-		BC006C8515AB0EF400643FA8 /* Power-100.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = "Power-100.tif"; path = "Resources/NotificationIcons/Power/Power-100.tif"; sourceTree = SOURCE_ROOT; };
-		BC006C8615AB0EF400643FA8 /* Power-BatteryFailure.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = "Power-BatteryFailure.tif"; path = "Resources/NotificationIcons/Power/Power-BatteryFailure.tif"; sourceTree = SOURCE_ROOT; };
-		BC006C8715AB0EF400643FA8 /* Power-Charging.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = "Power-Charging.tif"; path = "Resources/NotificationIcons/Power/Power-Charging.tif"; sourceTree = SOURCE_ROOT; };
-		BC006C8815AB0EF400643FA8 /* Power-NoBattery.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = "Power-NoBattery.tif"; path = "Resources/NotificationIcons/Power/Power-NoBattery.tif"; sourceTree = SOURCE_ROOT; };
-		BC006C8915AB0EF400643FA8 /* Power-Plugged.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = "Power-Plugged.tif"; path = "Resources/NotificationIcons/Power/Power-Plugged.tif"; sourceTree = SOURCE_ROOT; };
-		BC006C9A15AB151500643FA8 /* Capster-CapsLock-Off.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = "Capster-CapsLock-Off.tif"; path = "Resources/NotificationIcons/Capster/Capster-CapsLock-Off.tif"; sourceTree = SOURCE_ROOT; };
-		BC006C9B15AB151600643FA8 /* Capster-CapsLock-On.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = "Capster-CapsLock-On.tif"; path = "Resources/NotificationIcons/Capster/Capster-CapsLock-On.tif"; sourceTree = SOURCE_ROOT; };
-		BC006C9C15AB151600643FA8 /* Capster-FnKey-Off.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = "Capster-FnKey-Off.tif"; path = "Resources/NotificationIcons/Capster/Capster-FnKey-Off.tif"; sourceTree = SOURCE_ROOT; };
-		BC006C9D15AB151700643FA8 /* Capster-FnKey-On.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = "Capster-FnKey-On.tif"; path = "Resources/NotificationIcons/Capster/Capster-FnKey-On.tif"; sourceTree = SOURCE_ROOT; };
-		BC006C9E15AB151800643FA8 /* Capster-NumLock-Off.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = "Capster-NumLock-Off.tif"; path = "Resources/NotificationIcons/Capster/Capster-NumLock-Off.tif"; sourceTree = SOURCE_ROOT; };
-		BC006C9F15AB151800643FA8 /* Capster-NumLock-On.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = "Capster-NumLock-On.tif"; path = "Resources/NotificationIcons/Capster/Capster-NumLock-On.tif"; sourceTree = SOURCE_ROOT; };
-		BC006CA015AB151900643FA8 /* Capster-Shift-Off.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = "Capster-Shift-Off.tif"; path = "Resources/NotificationIcons/Capster/Capster-Shift-Off.tif"; sourceTree = SOURCE_ROOT; };
-		BC006CA115AB151900643FA8 /* Capster-Shift-On.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = "Capster-Shift-On.tif"; path = "Resources/NotificationIcons/Capster/Capster-Shift-On.tif"; sourceTree = SOURCE_ROOT; };
-		BC006CAB15AB161500643FA8 /* TimeMachine-Failed.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = "TimeMachine-Failed.tif"; path = "Resources/NotificationIcons/Time Machine/TimeMachine-Failed.tif"; sourceTree = SOURCE_ROOT; };
-		BC006CAC15AB161600643FA8 /* TimeMachine-Off.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = "TimeMachine-Off.tif"; path = "Resources/NotificationIcons/Time Machine/TimeMachine-Off.tif"; sourceTree = SOURCE_ROOT; };
-		BC006CAD15AB161700643FA8 /* TimeMachine-On.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = "TimeMachine-On.tif"; path = "Resources/NotificationIcons/Time Machine/TimeMachine-On.tif"; sourceTree = SOURCE_ROOT; };
+		BC006C2515AB004900643FA8 /* HWGPrefsBluetooth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = HWGPrefsBluetooth.png; path = Resources/MonitorIcons/HWGPrefsBluetooth.png; sourceTree = SOURCE_ROOT; };
+		BC006C2615AB004900643FA8 /* HWGPrefsCapster.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = HWGPrefsCapster.png; path = Resources/MonitorIcons/HWGPrefsCapster.png; sourceTree = SOURCE_ROOT; };
+		BC006C2715AB004900643FA8 /* HWGPrefsDefault.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = HWGPrefsDefault.png; path = Resources/MonitorIcons/HWGPrefsDefault.png; sourceTree = SOURCE_ROOT; };
+		BC006C2915AB004900643FA8 /* HWGPrefsDrivesVolumes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = HWGPrefsDrivesVolumes.png; path = Resources/MonitorIcons/HWGPrefsDrivesVolumes.png; sourceTree = SOURCE_ROOT; };
+		BC006C2A15AB004900643FA8 /* HWGPrefsFireWire.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = HWGPrefsFireWire.png; path = Resources/MonitorIcons/HWGPrefsFireWire.png; sourceTree = SOURCE_ROOT; };
+		BC006C2B15AB004900643FA8 /* HWGPrefsNetwork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = HWGPrefsNetwork.png; path = Resources/MonitorIcons/HWGPrefsNetwork.png; sourceTree = SOURCE_ROOT; };
+		BC006C2C15AB004900643FA8 /* HWGPrefsPhone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = HWGPrefsPhone.png; path = Resources/MonitorIcons/HWGPrefsPhone.png; sourceTree = SOURCE_ROOT; };
+		BC006C2D15AB004900643FA8 /* HWGPrefsPower.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = HWGPrefsPower.png; path = Resources/MonitorIcons/HWGPrefsPower.png; sourceTree = SOURCE_ROOT; };
+		BC006C2F15AB004900643FA8 /* HWGPrefsTimeMachine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = HWGPrefsTimeMachine.png; path = Resources/MonitorIcons/HWGPrefsTimeMachine.png; sourceTree = SOURCE_ROOT; };
+		BC006C3015AB004900643FA8 /* HWGPrefsUSB.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = HWGPrefsUSB.png; path = Resources/MonitorIcons/HWGPrefsUSB.png; sourceTree = SOURCE_ROOT; };
+		BC006C3E15AB012400643FA8 /* DisksVolumes-Eject.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "DisksVolumes-Eject.png"; path = "Resources/NotificationIcons/Disks & Volumes/DisksVolumes-Eject.png"; sourceTree = SOURCE_ROOT; };
+		BC006C4615AB052200643FA8 /* Network-Ethernet-Off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Network-Ethernet-Off.png"; path = "Resources/NotificationIcons/Network/Network-Ethernet-Off.png"; sourceTree = SOURCE_ROOT; };
+		BC006C4715AB052200643FA8 /* Network-Ethernet-On.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Network-Ethernet-On.png"; path = "Resources/NotificationIcons/Network/Network-Ethernet-On.png"; sourceTree = SOURCE_ROOT; };
+		BC006C4815AB052200643FA8 /* Network-Generic-Off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Network-Generic-Off.png"; path = "Resources/NotificationIcons/Network/Network-Generic-Off.png"; sourceTree = SOURCE_ROOT; };
+		BC006C4915AB052200643FA8 /* Network-Generic-On.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Network-Generic-On.png"; path = "Resources/NotificationIcons/Network/Network-Generic-On.png"; sourceTree = SOURCE_ROOT; };
+		BC006C4E15AB052300643FA8 /* Network-Wifi-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Network-Wifi-4.png"; path = "Resources/NotificationIcons/Network/Network-Wifi-4.png"; sourceTree = SOURCE_ROOT; };
+		BC006C4F15AB052300643FA8 /* Network-Wifi-Off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Network-Wifi-Off.png"; path = "Resources/NotificationIcons/Network/Network-Wifi-Off.png"; sourceTree = SOURCE_ROOT; };
+		BC006C6C15AB0CC500643FA8 /* USB-Off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "USB-Off.png"; path = "Resources/NotificationIcons/USB/USB-Off.png"; sourceTree = SOURCE_ROOT; };
+		BC006C6D15AB0CC500643FA8 /* USB-On.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "USB-On.png"; path = "Resources/NotificationIcons/USB/USB-On.png"; sourceTree = SOURCE_ROOT; };
+		BC006C7115AB0DB400643FA8 /* Bluetooth-Off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Bluetooth-Off.png"; path = "Resources/NotificationIcons/Bluetooth/Bluetooth-Off.png"; sourceTree = SOURCE_ROOT; };
+		BC006C7215AB0DB400643FA8 /* Bluetooth-On.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Bluetooth-On.png"; path = "Resources/NotificationIcons/Bluetooth/Bluetooth-On.png"; sourceTree = SOURCE_ROOT; };
+		BC006C7615AB0E0100643FA8 /* Firewire-Off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Firewire-Off.png"; path = "Resources/NotificationIcons/FireWire/Firewire-Off.png"; sourceTree = SOURCE_ROOT; };
+		BC006C7715AB0E0100643FA8 /* Firewire-On.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Firewire-On.png"; path = "Resources/NotificationIcons/FireWire/Firewire-On.png"; sourceTree = SOURCE_ROOT; };
+		BC006C7B15AB0EF400643FA8 /* Power-0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Power-0.png"; path = "Resources/NotificationIcons/Power/Power-0.png"; sourceTree = SOURCE_ROOT; };
+		BC006C7C15AB0EF400643FA8 /* Power-10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Power-10.png"; path = "Resources/NotificationIcons/Power/Power-10.png"; sourceTree = SOURCE_ROOT; };
+		BC006C7D15AB0EF400643FA8 /* Power-20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Power-20.png"; path = "Resources/NotificationIcons/Power/Power-20.png"; sourceTree = SOURCE_ROOT; };
+		BC006C7E15AB0EF400643FA8 /* Power-30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Power-30.png"; path = "Resources/NotificationIcons/Power/Power-30.png"; sourceTree = SOURCE_ROOT; };
+		BC006C7F15AB0EF400643FA8 /* Power-40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Power-40.png"; path = "Resources/NotificationIcons/Power/Power-40.png"; sourceTree = SOURCE_ROOT; };
+		BC006C8015AB0EF400643FA8 /* Power-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Power-50.png"; path = "Resources/NotificationIcons/Power/Power-50.png"; sourceTree = SOURCE_ROOT; };
+		BC006C8115AB0EF400643FA8 /* Power-60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Power-60.png"; path = "Resources/NotificationIcons/Power/Power-60.png"; sourceTree = SOURCE_ROOT; };
+		BC006C8215AB0EF400643FA8 /* Power-70.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Power-70.png"; path = "Resources/NotificationIcons/Power/Power-70.png"; sourceTree = SOURCE_ROOT; };
+		BC006C8315AB0EF400643FA8 /* Power-80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Power-80.png"; path = "Resources/NotificationIcons/Power/Power-80.png"; sourceTree = SOURCE_ROOT; };
+		BC006C8415AB0EF400643FA8 /* Power-90.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Power-90.png"; path = "Resources/NotificationIcons/Power/Power-90.png"; sourceTree = SOURCE_ROOT; };
+		BC006C8515AB0EF400643FA8 /* Power-100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Power-100.png"; path = "Resources/NotificationIcons/Power/Power-100.png"; sourceTree = SOURCE_ROOT; };
+		BC006C8615AB0EF400643FA8 /* Power-BatteryFailure.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Power-BatteryFailure.png"; path = "Resources/NotificationIcons/Power/Power-BatteryFailure.png"; sourceTree = SOURCE_ROOT; };
+		BC006C8715AB0EF400643FA8 /* Power-Charging.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Power-Charging.png"; path = "Resources/NotificationIcons/Power/Power-Charging.png"; sourceTree = SOURCE_ROOT; };
+		BC006C8815AB0EF400643FA8 /* Power-NoBattery.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Power-NoBattery.png"; path = "Resources/NotificationIcons/Power/Power-NoBattery.png"; sourceTree = SOURCE_ROOT; };
+		BC006C8915AB0EF400643FA8 /* Power-Plugged.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Power-Plugged.png"; path = "Resources/NotificationIcons/Power/Power-Plugged.png"; sourceTree = SOURCE_ROOT; };
+		BC006C9A15AB151500643FA8 /* Capster-CapsLock-Off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Capster-CapsLock-Off.png"; path = "Resources/NotificationIcons/Capster/Capster-CapsLock-Off.png"; sourceTree = SOURCE_ROOT; };
+		BC006C9B15AB151600643FA8 /* Capster-CapsLock-On.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Capster-CapsLock-On.png"; path = "Resources/NotificationIcons/Capster/Capster-CapsLock-On.png"; sourceTree = SOURCE_ROOT; };
+		BC006C9C15AB151600643FA8 /* Capster-FnKey-Off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Capster-FnKey-Off.png"; path = "Resources/NotificationIcons/Capster/Capster-FnKey-Off.png"; sourceTree = SOURCE_ROOT; };
+		BC006C9D15AB151700643FA8 /* Capster-FnKey-On.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Capster-FnKey-On.png"; path = "Resources/NotificationIcons/Capster/Capster-FnKey-On.png"; sourceTree = SOURCE_ROOT; };
+		BC006C9E15AB151800643FA8 /* Capster-NumLock-Off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Capster-NumLock-Off.png"; path = "Resources/NotificationIcons/Capster/Capster-NumLock-Off.png"; sourceTree = SOURCE_ROOT; };
+		BC006C9F15AB151800643FA8 /* Capster-NumLock-On.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Capster-NumLock-On.png"; path = "Resources/NotificationIcons/Capster/Capster-NumLock-On.png"; sourceTree = SOURCE_ROOT; };
+		BC006CA015AB151900643FA8 /* Capster-Shift-Off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Capster-Shift-Off.png"; path = "Resources/NotificationIcons/Capster/Capster-Shift-Off.png"; sourceTree = SOURCE_ROOT; };
+		BC006CA115AB151900643FA8 /* Capster-Shift-On.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Capster-Shift-On.png"; path = "Resources/NotificationIcons/Capster/Capster-Shift-On.png"; sourceTree = SOURCE_ROOT; };
+		BC006CAB15AB161500643FA8 /* TimeMachine-Failed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "TimeMachine-Failed.png"; path = "Resources/NotificationIcons/Time Machine/TimeMachine-Failed.png"; sourceTree = SOURCE_ROOT; };
+		BC006CAC15AB161600643FA8 /* TimeMachine-Off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "TimeMachine-Off.png"; path = "Resources/NotificationIcons/Time Machine/TimeMachine-Off.png"; sourceTree = SOURCE_ROOT; };
+		BC006CAD15AB161700643FA8 /* TimeMachine-On.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "TimeMachine-On.png"; path = "Resources/NotificationIcons/Time Machine/TimeMachine-On.png"; sourceTree = SOURCE_ROOT; };
 		BC3530AE155C1402005D2EA2 /* Common.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Common.xcconfig; path = xcconfig/Common.xcconfig; sourceTree = "<group>"; };
 		BC3530AF155C1402005D2EA2 /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Debug.xcconfig; path = xcconfig/Debug.xcconfig; sourceTree = "<group>"; };
 		BC3530B0155C1402005D2EA2 /* Localization.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Localization.xcconfig; path = xcconfig/Localization.xcconfig; sourceTree = "<group>"; };
@@ -701,8 +701,8 @@
 		BC006C7515AB0DBA00643FA8 /* Bluetooth */ = {
 			isa = PBXGroup;
 			children = (
-				BC006C7115AB0DB400643FA8 /* Bluetooth-Off.tif */,
-				BC006C7215AB0DB400643FA8 /* Bluetooth-On.tif */,
+				BC006C7115AB0DB400643FA8 /* Bluetooth-Off.png */,
+				BC006C7215AB0DB400643FA8 /* Bluetooth-On.png */,
 			);
 			name = Bluetooth;
 			sourceTree = "<group>";
@@ -1699,8 +1699,8 @@
 				BC006C6A15AB0C7200643FA8 /* Network-Wifi-Off.tif in Resources */,
 				BC006C6E15AB0CC500643FA8 /* USB-Off.tif in Resources */,
 				BC006C6F15AB0CC500643FA8 /* USB-On.tif in Resources */,
-				BC006C7315AB0DB400643FA8 /* Bluetooth-Off.tif in Resources */,
-				BC006C7415AB0DB400643FA8 /* Bluetooth-On.tif in Resources */,
+				BC006C7315AB0DB400643FA8 /* Bluetooth-Off.png in Resources */,
+				BC006C7415AB0DB400643FA8 /* Bluetooth-On.png in Resources */,
 				BC006C7815AB0E0100643FA8 /* Firewire-Off.tif in Resources */,
 				BC006C7915AB0E0100643FA8 /* Firewire-On.tif in Resources */,
 				BC006C8A15AB0EF500643FA8 /* Power-0.tif in Resources */,
