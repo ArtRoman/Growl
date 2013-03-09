@@ -138,7 +138,7 @@
 	CFDataRef			postData = CFStringCreateExternalRepresentation(kCFAllocatorDefault, dataString, kCFStringEncodingUTF8, 0U);
 	CFURLRef			clickatellURL = CFURLCreateWithString(kCFAllocatorDefault, CFSTR("https://api.clickatell.com/xml/xml"), NULL);
 	NSMutableURLRequest	*post = [[NSMutableURLRequest alloc] initWithURL:(NSURL *)clickatellURL];
-	CFStringRef			contentLength = CFStringCreateWithFormat(kCFAllocatorDefault, NULL, CFSTR("%u"), CFDataGetLength(postData));
+	CFStringRef			contentLength = CFStringCreateWithFormat(kCFAllocatorDefault, NULL, CFSTR("%lu"), CFDataGetLength(postData));
 
 //	NSLog(@"SMS display: Sending data: %@", postData);
 

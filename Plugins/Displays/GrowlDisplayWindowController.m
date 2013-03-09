@@ -397,8 +397,10 @@ static NSMutableDictionary *existingInstances;
 }
 
 - (BOOL) startTransition:(GrowlWindowTransition *)transition {
-	NSInteger startPercentage = (NSInteger) NSMapGet(startTimes, transition);
-	NSInteger endPercentage   = (NSInteger) NSMapGet(endTimes, transition);
+	void * startRef = NSMapGet(startTimes, transition);
+	void * endRef   = NSMapGet(endTimes, transition);
+	long startPercentage = (long)startRef;
+	long endPercentage = (long)endRef;
 
 	// If there were no times set up then the end time would be NULL (0)...
 	if (endPercentage == 0)

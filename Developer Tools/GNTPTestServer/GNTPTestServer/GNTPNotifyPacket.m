@@ -56,9 +56,9 @@
 		contextString = context;
 	}else{
 		if([contextType caseInsensitiveCompare:@"PLIST"] == NSOrderedSame){
-			if([NSPropertyListSerialization propertyList:context isValidForFormat:kCFPropertyListXMLFormat_v1_0]){
+			if([NSPropertyListSerialization propertyList:context isValidForFormat:NSPropertyListXMLFormat_v1_0]){
 				NSData *propertyListData = [NSPropertyListSerialization dataWithPropertyList:context
-																											 format:kCFPropertyListXMLFormat_v1_0
+																											 format:NSPropertyListXMLFormat_v1_0
 																											options:0
 																											  error:NULL];
 				if(propertyListData){
@@ -123,9 +123,9 @@
 				contextType = [dict objectForKey:GROWL_NOTIFICATION_CLICK_CONTENT_TYPE];
 			else
 				contextType = @"String";
-		}else if([NSPropertyListSerialization propertyList:context isValidForFormat:kCFPropertyListXMLFormat_v1_0]){
+		}else if([NSPropertyListSerialization propertyList:context isValidForFormat:NSPropertyListXMLFormat_v1_0]){
 			NSData *plistData = [NSPropertyListSerialization dataWithPropertyList:context
-                                                                        format:kCFPropertyListXMLFormat_v1_0
+                                                                        format:NSPropertyListXMLFormat_v1_0
                                                                        options:0
                                                                          error:NULL];
 			if(plistData){
