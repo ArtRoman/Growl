@@ -427,8 +427,8 @@
 				case HGBatteryPower:
 				case HGUPSPower:
 					if(percentage >= 0){
-						NSInteger adjusted = (NSInteger)roundf((CGFloat)percentage / 10.0f);
-						imageName = [NSString stringWithFormat:@"Power-%ld0", adjusted];
+						float adjusted = roundf((CGFloat)percentage / 10.0f);
+						imageName = [NSString stringWithFormat:@"Power-%f0", adjusted];
 						if(adjusted == 0)
 							imageName = @"Power-0";
 					}
